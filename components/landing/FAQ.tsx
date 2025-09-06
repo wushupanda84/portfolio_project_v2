@@ -28,22 +28,23 @@ const faqs = [
 export function FAQ() {
   return (
     <section id="faq" className="container py-24 sm:py-32 pl-8 md:pl-12 lg:pl-16">
-      <div className="mb-16 flex flex-col items-center text-center">
-        <h2 className="text-3xl font-bold leading-tight tracking-tighter md:text-4xl">
-          Frequently Asked Questions
-        </h2>
-        <p className="max-w-[85%] mt-4 text-lg text-muted-foreground">
-          Common questions about my experience and expertise
+      <div className="mb-16 flex flex-col items-start">
+        <h2 className="text-sm font-semibold tracking-widest uppercase text-primary mb-4">FAQ</h2>
+        <h3 className="text-3xl font-bold leading-tight tracking-tighter md:text-4xl mb-6">
+          Common Questions
+        </h3>
+        <p className="max-w-[42rem] text-lg text-muted-foreground leading-relaxed">
+          Answers to frequently asked questions about my experience and expertise
         </p>
       </div>
-      <div className="grid gap-4 md:grid-cols-2">
+      <div className="grid gap-6 md:grid-cols-2">
         {faqs.map((faq) => (
-          <Card key={faq.question}>
+          <Card key={faq.question} className="border-none shadow-lg bg-card hover:bg-accent/10 transition-colors">
             <CardHeader>
-              <CardTitle className="text-xl">{faq.question}</CardTitle>
+              <CardTitle className="text-xl font-semibold">{faq.question}</CardTitle>
             </CardHeader>
             <CardContent>
-              <CardDescription className="text-base">{faq.answer}</CardDescription>
+              <CardDescription className="text-base leading-relaxed">{faq.answer}</CardDescription>
             </CardContent>
           </Card>
         ))}
