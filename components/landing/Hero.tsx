@@ -3,7 +3,7 @@ import Link from "next/link"
 
 export function Hero() {
   return (
-    <section className="container flex flex-col items-start gap-6 pb-8 pt-32 md:pt-40 min-h-[80vh] pl-8 md:pl-12 lg:pl-16">
+    <section className="container flex flex-col items-start justify-center gap-6 pb-16 pt-32 md:pt-40 min-h-[70vh] pl-8 md:pl-12 lg:pl-16">
       <div className="space-y-4">
         <h2 className="text-sm font-semibold tracking-widest uppercase text-primary">Professional Portfolio</h2>
         <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight">

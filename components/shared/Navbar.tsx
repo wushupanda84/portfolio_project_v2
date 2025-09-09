@@ -10,9 +10,9 @@ export function Navbar() {
             <span className="font-bold text-lg tracking-tight">SF</span>
           </Link>
           <nav className="flex items-center space-x-6 text-sm font-medium">
-            <Link href="#about" className="text-muted-foreground hover:text-foreground transition-colors">About</Link>
             <Link href="#features" className="text-muted-foreground hover:text-foreground transition-colors">Features</Link>
             <Link href="#faq" className="text-muted-foreground hover:text-foreground transition-colors">FAQ</Link>
+            <Link href="#chat" className="text-muted-foreground hover:text-foreground transition-colors">Chat</Link>
           </nav>
         </div>
         <div className="flex flex-1 items-center justify-end">
