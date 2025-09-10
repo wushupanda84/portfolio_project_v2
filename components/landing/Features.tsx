@@ -25,8 +25,8 @@ const features = [
 
 export function Features() {
   return (
-    <section id="features" className="container py-24 sm:py-32 pl-8 md:pl-12 lg:pl-16">
-      <div className="mb-16 flex flex-col items-start">
+    <section id="features" className="container mx-auto py-24 sm:py-32 px-4 sm:px-6 lg:px-8">
+      <div className="mb-16 flex flex-col items-center text-center">
         <h2 className="text-sm font-semibold tracking-widest uppercase text-primary mb-4">Expertise</h2>
         <h3 className="text-3xl font-bold leading-tight tracking-tighter md:text-4xl mb-6">
           Core Competencies
