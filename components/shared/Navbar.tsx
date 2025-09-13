@@ -17,7 +17,7 @@ export function Navbar() {
         </div>
         <div className="flex flex-1 items-center justify-end">
           <Button asChild variant="default" size="sm" className="px-4">
-            <Link href="#contact">Contact</Link>
+            <Link href="https://www.linkedin.com/in/sebastian-fink-18968b1a7" target="_blank" rel="noopener noreferrer">Contact</Link>
           </Button>
         </div>
       </div>

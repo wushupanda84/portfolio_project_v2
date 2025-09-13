@@ -2,24 +2,34 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 
 const features = [
   {
-    title: "Business Informatics",
-    description: "Bachelor's degree combining technical expertise with business acumen.",
-    icon: "🎓"
-  },
-  {
     title: "Global Logistics Management",
-    description: "Managing worldwide IoT device shipments via air and sea freight.",
+    description: "Planning and managing international freight methods including air and sea shipments for IoT devices worldwide, ensuring timely delivery and retrieval from operational sites.",
     icon: "🌐"
   },
   {
-    title: "Technical Operations",
-    description: "Overseeing IoT device functionality and monitoring systems.",
-    icon: "⚙️"
+    title: "IoT Device Operations",
+    description: "Managing advanced IoT devices with real-time monitoring capabilities for security, temperature, and humidity throughout the supply chain journey.",
+    icon: "📡"
   },
   {
-    title: "Customer Support",
-    description: "Practical experience in client-facing roles during studies.",
+    title: "Cost & Performance Control",
+    description: "Proficient in cost and performance controlling, demand and inventory planning to ensure service readiness and operational efficiency.",
+    icon: "📊"
+  },
+  {
+    title: "AI Development",
+    description: "AI Maker Bootcamp graduate with expertise in GenAI application development, prompt engineering, and full-stack integration using modern platforms.",
+    icon: "🤖"
+  },
+  {
+    title: "International Collaboration",
+    description: "Experience in direct customer contact and close collaboration with international management teams, with negotiation-fluent English.",
     icon: "👥"
+  },
+  {
+    title: "Supply Chain Visibility",
+    description: "Expertise in providing clients with end-to-end supply chain visibility through real-time cargo monitoring and analytics.",
+    icon: "🔍"
   }
 ]
 
@@ -35,7 +45,7 @@ export function Features() {
           Combining technical expertise with practical business experience to deliver comprehensive solutions
         </p>
       </div>
-      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-4">
+      <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
         {features.map((feature) => (
           <Card key={feature.title} className="border-none shadow-lg bg-card hover:bg-accent/10 transition-colors">
             <CardHeader>
